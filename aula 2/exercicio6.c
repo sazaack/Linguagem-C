@@ -8,7 +8,7 @@ int main() {
     scanf("%f", &valor_produto);
     
     // Cálculos
-    float valor_a_vista = valor_produto * 0.9f;       
+    float valor_a_vista = valor_produto * 0.9;       
     float parcelas_3x = valor_produto / 3;            
     float comissao_vista = valor_a_vista * 0.05f;     
     float comissao_parcelada = valor_produto * 0.05f; 
