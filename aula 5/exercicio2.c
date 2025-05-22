@@ -6,12 +6,12 @@ void mostrarMensagem(char nome[], int idade) {
 }
 
 int main() {
-    char nome[50];  
+    char nome[20];  
     int idade;      
 
     
     printf("Nome: ");
-    scanf("%49s", nome);  
+    scanf("%s", nome);  
 
    
     printf("Idade: ");
