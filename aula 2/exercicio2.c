@@ -17,7 +17,7 @@ int main() {
     scanf("%f", &nota2);
 
     //Calcule a media
-    media = 8;
+    media = nota1 + nota2;
 
     // Exibe o resultado
      printf("\nO aluno %s obteve media final %.1f.\n", nome, media);
